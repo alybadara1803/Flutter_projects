@@ -39,6 +39,17 @@ class FirstPage extends StatelessWidget {
             ],
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.info),
+            label: 'I N F O',
+            ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.contact_emergency),
+            label: 'C O N T A C T',
+            )
+        ]),
       ),
     );
   }
