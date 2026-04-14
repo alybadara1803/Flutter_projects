@@ -1,3 +1,6 @@
+import 'package:app01/pages/home_page.dart';
+import 'package:app01/pages/info_page.dart';
+import 'package:app01/pages/settings_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,6 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: HomePage(),
+      routes: {
+        '/homepage': (context) => HomePage(),
+        '/settingspage': (context) => SettingsPage(),
+        '/infopage': (context) => InfoPage(),
+      },
+    );
   }
 }
