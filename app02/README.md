@@ -1,17 +1,10 @@
 # app02
 
 A new Flutter project.
+<img width="1410" height="2862" alt="localhost_53397_(iPhone 6_7_8 Plus)" src="https://github.com/user-attachments/assets/2e19f390-ba79-4c45-9f64-4a89c923cc50" />
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Description
 
-A few resources to get you started if this is your first Flutter project:
+Ce projet met en lumière la différence entre Stateless et Stateful Widgets, une page contenant deux bouttons (incrémenter et decrémenter) qui modifie la valeur du _counter.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
