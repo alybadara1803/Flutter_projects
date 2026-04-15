@@ -1,4 +1,4 @@
-# app02
+# Stateless vs Stateful Widgets
 
 ## Description
 
