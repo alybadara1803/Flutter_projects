@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
 
     String userName = myControler.text;
     setState(() {
-      greetingMessage = 'Hello, ' + userName;
+      greetingMessage = 'Hello,  + $userName';
     });
   }
 
