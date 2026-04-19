@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TodoPage extends StatefulWidget {
-  const TodoPage({super.key});
+class HomePage extends StatefulWidget {
+  const HomePage({super.key});
 
   @override
-  State<TodoPage> createState() => _TodoPageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _TodoPageState extends State<TodoPage> {
+class _HomePageState extends State<HomePage> {
   // Text editing controler to get access to what the user typed
   TextEditingController myControler = TextEditingController();
 
