@@ -14,8 +14,10 @@ class _TodoPageState extends State<TodoPage> {
   String greetingMessage = "";
   //method
   void greetUser() {
+
+    String userName = myControler.text;
     setState(() {
-      greetingMessage = 'Hello, ' + myControler.text;
+      greetingMessage = 'Hello, ' + userName;
     });
   }
 
@@ -53,5 +55,4 @@ class _TodoPageState extends State<TodoPage> {
     );
   }
 }
-
 
