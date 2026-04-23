@@ -68,7 +68,7 @@ class _HomePageState extends State<HomePage> {
     setState(() {
       // greetMessage = 'Hello, ' + myControler.text;
       // goals.add(myControler.text);
-      if (myControler.text != null){
+      if (myControler.text != '' ){
             goals.add(myControler.text);
                     ListView.builder(
         itemCount: goals.length,
@@ -103,6 +103,7 @@ class _HomePageState extends State<HomePage> {
             Text(goals.toString()),
             TextField(controller: myControler),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(onPressed: greetUser, child: Text('Tap')),
                 ElevatedButton(onPressed: removGoal, child: Text('REMOVE')),
