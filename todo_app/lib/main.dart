@@ -32,6 +32,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title : 'HOME PAGE'
       debugShowCheckedModeBanner: false,
       home: HomePage(),
       theme: ThemeData(primarySwatch: Colors.orange),
